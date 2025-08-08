@@ -38,6 +38,10 @@ body {
 .star {
 	font-size: 1.8rem;
 }
+.star-icon {
+	width: 50%;
+	height: 50%;
+}
 .btn,
 .submit {
 	transition: background-color 0.3s;
@@ -78,6 +82,8 @@ h1 {
 .img-thank-you {
 	margin-top: 1em;
 	margin-bottom: 2em;
+	width: 16.2rem;
+	height: auto;
 }
 .answer-div {
 	margin-bottom: 2em;
