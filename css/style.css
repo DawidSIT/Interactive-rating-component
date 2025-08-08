@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card {
+	max-width: 32.5rem;
+	padding: 2em;
+	color: #fff;
+	background: linear-gradient(90deg, rgba(35, 42, 52, 1) 0%, rgba(24, 30, 39, 1) 50%);
+	font-size: 1.6rem;
+	border-radius: 15px;
+	height: 39rem;
+}
+.btn,
+.star {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #262e38;
+	width: 2em;
+	height: 2em;
+	font-size: 1.8rem;
+	border-radius: 50%;
+	border: none;
+	color: #fff;
+	margin: 0.5em;
+}
+.star {
+	font-size: 1.8rem;
+}
+.btn,
+.submit {
+	transition: background-color 0.3s;
+	cursor: pointer;
+}
+.submit {
+	height: 2em;
+	width: 100%;
+	border-radius: 15px;
+	font-size: 1.8rem;
+	border: none;
+}
+h1 {
+	padding: 1em 0;
+}
+.btns {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1em 0;
+}
+.submit:hover {
+	background-color: #fc7614;
+}
+.btn:hover {
+	background-color: #fc7614;
+}
+.second-page {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.display {
+   display: none;
+}
+.img-thank-you {
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+.answer-div {
+	margin-bottom: 2em;
+	background-color: #262e38;
+	padding: 0.5em 0.7em;
+	border-radius: 40px;
+}
+h2 {
+	margin-bottom: 1em;
+}
+.description {
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 1em;
+}
+.selected {
+	background-color: #fc7614;
+}
+@media (min-width: 75em) {
+	.card {
+		max-width: 42.5rem;
+		height: 44rem;
+	}
+	.btn,
+	.star {
+		width: 3em;
+		height: 3em;
+	}
+    .btns{
+        margin: 1em 0;
+    }
+    .submit{
+        height: 3em;
+    }
+    .answer-div{
+        margin-top: 1em;
+    }
+}
